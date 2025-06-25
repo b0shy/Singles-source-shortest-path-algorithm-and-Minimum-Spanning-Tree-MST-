@@ -1,0 +1,17 @@
+7 15 D
+X Y 3
+X Z 2
+Y A 4
+Z A 1
+Z B 5
+A B 2
+A C 6
+B C 3
+B D 4
+C D 1
+D X 7
+X A 3
+Y C 5
+Z D 6
+A X 4
+X

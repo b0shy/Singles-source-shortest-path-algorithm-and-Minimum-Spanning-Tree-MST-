@@ -1,0 +1,17 @@
+7 15 D
+R S 2
+R T 4
+S T 1
+S U 5
+T U 3
+T V 6
+U V 2
+U W 4
+V W 1
+W R 7
+R U 8
+S V 3
+T R 2
+U S 4
+V T 1
+R

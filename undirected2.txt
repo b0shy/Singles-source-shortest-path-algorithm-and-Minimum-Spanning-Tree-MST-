@@ -1,0 +1,15 @@
+9 13 U
+J K 2
+J L 3
+K M 4
+L M 2
+L N 5
+M O 3
+N O 6
+N P 4
+O Q 7
+P Q 2
+J M 6
+K N 3
+M Q 1
+J

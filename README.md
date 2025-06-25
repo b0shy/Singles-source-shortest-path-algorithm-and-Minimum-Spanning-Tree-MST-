@@ -13,19 +13,7 @@ How to Set Up and Run:
 ### 1. Prerequisites
 Make sure you have Python 3 installed on your computer.
 
-### 2. Folder Structure
-Your folder should look like this:
-
-project2/
-├── shortest_path.py (Dijkstra's algorithm)
-├── mst.py (Kruskal's algorithm)
-└── input_graphs/ (Folder with input graph files)
-  ├── undirected1.txt
-  ├── undirected2.txt
-  ├── directed1.txt
-  └── directed2.txt
-
-### 3. Input File Format
+### 2. Input File Format
 Each input file should follow this format:
 
 <number of nodes> <number of edges> <D or U>
@@ -57,7 +45,7 @@ Each of the next lines defines an edge and its weight.
 
 The last line ("A") is the source node for the shortest path program.
 
-### 4. How to Run shortest_path.py
+### 3. How to Run shortest_path.py
 To run Dijkstra’s algorithm on a graph file:
 
 python shortest_path.py input_graphs/undirected1.txt
@@ -72,7 +60,7 @@ Path to C: A -> C | Cost: 2
 Path to D: A -> B -> D | Cost: 4
 ...
 
-### 5. How to Run mst.py
+### 4. How to Run mst.py
 To run the Minimum Spanning Tree algorithm:
 
 python mst.py input_graphs/undirected1.txt
@@ -88,11 +76,11 @@ C - D (weight 1)
 ...
 Total cost: 12
 
-### 6. Sample Commands
+### 5. Sample Commands
 To run shortest_path.py with a directed graph:
 
-python shortest_path.py input_graphs/directed1.txt
+python shortest_path.py directed1.txt
 
 To run mst.py with a second undirected graph:
 
-python mst.py input_graphs/undirected2.txt
+python mst.py undirected2.txt
