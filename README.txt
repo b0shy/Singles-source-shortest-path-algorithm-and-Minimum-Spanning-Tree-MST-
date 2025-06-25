@@ -1,4 +1,4 @@
-Project 2: Graph Algorithms in Python
+#Project 2: Graph Algorithms in Python
 
 This project contains two Python programs:
 
