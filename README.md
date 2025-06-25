@@ -48,7 +48,7 @@ The last line ("A") is the source node for the shortest path program.
 ### 3. How to Run shortest_path.py
 To run Dijkstra’s algorithm on a graph file:
 
-python shortest_path.py input_graphs/undirected1.txt
+python shortest_path.py undirected1.txt
 
 This program will display the shortest path from the source node to all other nodes, along with the total cost of each path.
 
@@ -63,7 +63,7 @@ Path to D: A -> B -> D | Cost: 4
 ### 4. How to Run mst.py
 To run the Minimum Spanning Tree algorithm:
 
-python mst.py input_graphs/undirected1.txt
+python mst.py undirected1.txt
 
 Important: This program only works for undirected graphs. If you try to use a directed graph, the program will show an error.
 
@@ -75,12 +75,3 @@ B - C (weight 1)
 C - D (weight 1)
 ...
 Total cost: 12
-
-### 5. Sample Commands
-To run shortest_path.py with a directed graph:
-
-python shortest_path.py directed1.txt
-
-To run mst.py with a second undirected graph:
-
-python mst.py undirected2.txt
