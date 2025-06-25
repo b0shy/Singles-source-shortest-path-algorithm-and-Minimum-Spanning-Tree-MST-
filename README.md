@@ -1,4 +1,4 @@
-#Project 2: Graph Algorithms in Python
+# Project 2: Graph Algorithms in Python
 
 This project contains two Python programs:
 
@@ -8,11 +8,12 @@ mst.py — Finds the Minimum Spanning Tree (MST) of an undirected graph (using K
 
 Both programs take input from a .txt file that describes the graph.
 
-How to Set Up and Run
-1. Prerequisites
+How to Set Up and Run:
+
+### 1. Prerequisites
 Make sure you have Python 3 installed on your computer.
 
-2. Folder Structure
+### 2. Folder Structure
 Your folder should look like this:
 
 project2/
@@ -24,7 +25,7 @@ project2/
   ├── directed1.txt
   └── directed2.txt
 
-3. Input File Format
+### 3. Input File Format
 Each input file should follow this format:
 
 <number of nodes> <number of edges> <D or U>
@@ -56,7 +57,7 @@ Each of the next lines defines an edge and its weight.
 
 The last line ("A") is the source node for the shortest path program.
 
-4. How to Run shortest_path.py
+### 4. How to Run shortest_path.py
 To run Dijkstra’s algorithm on a graph file:
 
 python shortest_path.py input_graphs/undirected1.txt
@@ -71,7 +72,7 @@ Path to C: A -> C | Cost: 2
 Path to D: A -> B -> D | Cost: 4
 ...
 
-5. How to Run mst.py
+### 5. How to Run mst.py
 To run the Minimum Spanning Tree algorithm:
 
 python mst.py input_graphs/undirected1.txt
@@ -87,18 +88,7 @@ C - D (weight 1)
 ...
 Total cost: 12
 
-6. Tips and Warnings
-Input files must be formatted correctly with no extra blank lines.
-
-Edge weights must be integers.
-
-Node names should be simple (like A, B, C).
-
-The final source node line is optional and only used by shortest_path.py.
-
-Do not run mst.py with a directed graph input.
-
-7. Sample Commands
+### 6. Sample Commands
 To run shortest_path.py with a directed graph:
 
 python shortest_path.py input_graphs/directed1.txt
